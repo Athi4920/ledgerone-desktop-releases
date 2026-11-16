@@ -1,0 +1,41 @@
+# Release staging folder - binaries are uploaded through GitHub Releases
+/release/
+
+# Environment variables and secrets
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+*.keystore
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# Installer and application binaries
+*.exe
+*.msi
+*.msix
+*.appx
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Operating system files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Temporary folders
+temp/
+tmp/
+downloads/
+release-assets/
